@@ -138,3 +138,5 @@ let mySprite = sprites.create(img`
     . . . . . . f 3 f f b f . . . . 
     . . . . . . f f f f f f . . . . 
     `, SpriteKind.Player)
+controller.moveSprite(mySprite, 50, controller.dx())
+mySprite.setPosition(76, 114)
